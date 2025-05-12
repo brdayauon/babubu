@@ -373,3 +373,8 @@ if __name__ == '__main__':
         print("\nAll specific test cases passed!")
     else:
         print("\nSome tests FAILED.")
+
+
+# md5Processor = _MD5_Processor()
+hashedValueHex = md5_string_processor("{}W_ak^moHpMla,nw3b089qrgw9m7b7i", {})
+print(hashedValueHex + " expected: " + "7a60edbfa9906d61d4dbfc9ca9ddb226")
